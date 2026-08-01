@@ -54,7 +54,6 @@ with st.form("gas_form", clear_on_submit=True):
         else:
             st.warning("⚠️ 請輸入大於 0 的油價與公升數！")
 
----
 
 # 顯示歷史紀錄
 st.subheader("📊 歷史加油紀錄")
